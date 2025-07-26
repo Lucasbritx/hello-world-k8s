@@ -1,0 +1,17 @@
+{
+    "name": "hello-world",
+    "version": "1.0.0",
+    "description": "Simple Node.js Hello World app",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js",
+        "test": "mocha test.js"
+    },
+    "dependencies": {
+        "express": "^4.17.1"
+    },
+    "devDependencies": {
+        "mocha": "^10.0.0",
+        "supertest": "^6.2.3"
+    }
+}
